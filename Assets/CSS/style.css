@@ -1,0 +1,29 @@
+h1{
+    font-size:64px;
+    background:grey;
+    Padding: 20px;
+}
+.table{
+    border:1px solid black;
+    padding:20px;
+}
+.form{
+    background:beige;
+    padding:20px
+}
+.row{
+    justify-content: space-between;
+}
+.topRow{
+    font-weight: bolder;
+    font-size:24px;
+}
+.row + .row{
+    border-top: 1px solid black;
+}
+button{
+    margin:20px 0px;
+}
+.title{
+    text-align: center;
+}
