@@ -16,23 +16,34 @@
         <h1 class=" title">All Aboard</h1>
         <div class="table">
             <div class="topRow row">
-                <div class="name">Train Name</div>
-                <div class="destination">Destination</div>
-                <div class="nextTrain">Next Train Time</div>
-                <div class="frequency">Frequency</div>
+                <div class="name col-md">Train Name</div>
+                <div class="destination col-md">Destination</div>
+                <div class="nextTrain col-md">Next Train Time</div>
+                <div class="frequency col-md">Frequency</div>
             </div>
         </div>
         <form class='form'>
-            <div class="name">Train Name</div>
-            <input type='text' class='trainName' placeholder='Your Train Name'>
-            <div class="name">Train Destination</div>
-            <input type='text' class='trainDestination' placeholder='Name Your Destination'>
-            <div class="name">Train Initial Time</div>
-            <input type='text' class='trainTime' placeholder='First Train Time (HH:MM)'>
-            <div class="name">Train Frequency</div>
-            <input type='text' class='trainFrequency' placeholder='Frequency (minutes)'>
-            <br>
-            <button class="submit button">Add to Train Schedule</button>
+            <div class="row">
+                <div class="col-md">
+                    <div class="formHead">Train Name</div>
+                    <input type='text' class='formTitle trainName' placeholder='Your Train Name'>
+                </div>
+                <div class="col-md">
+                    <div class="formHead">Train Destination</div>
+                    <input type='text' class='formTitle trainDestination' placeholder='Name Your Destination'>
+                </div>
+                <div class="col-md">
+                    <div class="formHead">Train Initial Time</div>
+                    <input type='text' class='formTitle trainTime' placeholder='First Train Time (HH:MM)'>
+                </div>
+                <div class="col-md">
+                    <div class="formHead">Train Frequency</div>
+                    <input type='text' class='formTitle trainFrequency' placeholder='Frequency (minutes)'>
+                </div>
+                <br>
+            </div>
+                <button class="submit button">Add to Train Schedule</button>
+
         </form>
     </div>
 

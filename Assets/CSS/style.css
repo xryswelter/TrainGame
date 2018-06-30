@@ -1,18 +1,30 @@
 h1{
-    font-size:64px;
-    background:grey;
+    font-size:114px;
+    background-image: url("https://thumbs.dreamstime.com/b/shinkansen-bullet-train-tohoku-japan-mar-runs-countryside-akita-large-prefecture-sea-coast-93730432.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    color:white;
     Padding: 20px;
 }
+body{
+    background-color: black;
+}
+.title{
+    text-align: center;
+    min-height:250px;
+    /* transform: translate(-50%, -50%); */
+}
 .table{
-    border:1px solid black;
+    border:3px solid black;
     padding:20px;
+    background-color:white;
 }
 .form{
-    background:beige;
+    background:lightgray;
     padding:20px
 }
 .row{
-    justify-content: space-between;
+    justify-content: space-evenly;
 }
 .topRow{
     font-weight: bolder;
@@ -22,8 +34,12 @@ h1{
     border-top: 1px solid black;
 }
 button{
-    margin:20px 0px;
+    margin-bottom:20px;
 }
-.title{
-    text-align: center;
+.formHead{
+    background-color:darkgray;
+    max-width: 220px;
+}
+div + input{
+    margin-bottom:20px;
 }
