@@ -38,8 +38,9 @@ $(document).ready(function () {
             <div class="row">
                 <div class="name col-md">${value.name}</div>
                 <div class="destination col-md">${value.destination}</div>
+                <div class="frequency col-md">${value.frequency} Minutes</div>
                 <div class="nextTrain col-md">${nextTrain[0]}</div>
-                <div class="frequency col-md">${nextTrain[1]} Minutes</div>
+                <div class="timeRemaining col-md">${nextTrain[1]} Minutes</div>
             </div>
             `
         )
