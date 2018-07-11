@@ -60,7 +60,7 @@ $(document).ready(function () {
         let newTrain = nextTrain(sTime, nTime, timeFrequency);
         console.log(newTrain);
         //Calls function to set up values for the last 2 columns in table
-        nextTrainTime = revert(newTrain);
+        nextTrainTime = revert(newTrain[0]);
         trainWillArrive = newTrain[1];
         console.log(revert);
         let finalResults = [];
@@ -72,7 +72,7 @@ $(document).ready(function () {
     //revert minutes back to military time
     function revert(a) {
         console.log(a);
-        let time = parseFloat(a[0] / 60);
+        let time = parseFloat(a / 60);
         console.log(time)
         timeH = parseInt(time);
         timeM = time - timeH;
